@@ -78,8 +78,6 @@ const loadMore = () => {
       </form>
 {/* Favorite books */}
       <Favorites favorites={favorites} toggleFavorite={toggleFavorite} />
-
-      {loading && <p className="text-center pt-8">Loading...</p>}
             
       {!loading && books.length===0 && <h2 className="text-xl text-center py-6">No Search Results</h2>}
       
@@ -87,6 +85,7 @@ const loadMore = () => {
       {books.length!==0 && <h2 className="text-xl font-bold py-6">Search Results</h2>}
       <BookList books={books} toggleFavorite={toggleFavorite} favorites={favorites} />
 
+{loading && <p className="text-center pt-8">Loading...</p>}
       {/* load more button */}
       {books.length > 0 && !loading && (
         <div className="text-center mt-4">
