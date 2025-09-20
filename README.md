@@ -1,4 +1,14 @@
 - This is a book finder app made to search books from the OpenLibrary API
+
+- How to install??
+    -   clone the repo locally on your system and open terminal
+    -   make sure you are in the app folder
+    -   write command
+          - npm i
+    - now run the app using
+        - npm run dev  
+
+
 - We can find book using the Book Name, Author Name or the ISBN code of the book
 
 - How to use
@@ -13,4 +23,5 @@
     
     - You can scroll down and see more books if needed using the load more button
     - <img width="1842" height="812" alt="image" src="https://github.com/user-attachments/assets/bb8f827c-e203-4dbd-bd6e-14b1ebaaefb2" />
+
 
